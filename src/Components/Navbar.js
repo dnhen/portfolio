@@ -1,4 +1,5 @@
 import '../Styles/Navbar.css';
+import { FaHome, FaUserTie, FaThList, FaEnvelopeOpen } from "react-icons/fa";
 
 const Navbar = ( { cartState, removeFromCart } ) => {
   const handleBurgerClick = () => { // Func to show the menu when hamburger clicked
@@ -21,10 +22,10 @@ const Navbar = ( { cartState, removeFromCart } ) => {
         <p><span className="logoText">dnhen.</span></p>
       </div>
       <ul className="navItems">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Projects</a></li>
-        <li><a href="#extras">Contact</a></li>
+        <li><a href="#home"><FaHome style={{paddingRight: "5px", verticalAlign: "top"}} size="20" />Home</a></li>
+        <li><a href="#about"><FaUserTie style={{paddingRight: "5px", verticalAlign: "top"}} size="20" />About</a></li>
+        <li><a href="#projects"><FaThList style={{paddingRight: "5px", verticalAlign: "top"}} size="20" />Projects</a></li>
+        <li><a href="#contact"><FaEnvelopeOpen style={{paddingRight: "5px", verticalAlign: "top"}} size="20" />Contact</a></li>
       </ul>
       <div className="burger" onClick={handleBurgerClick}>
         <div className="line1"></div>

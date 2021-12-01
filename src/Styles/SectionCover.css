@@ -1,10 +1,71 @@
 .coverContent {
-  padding: 0 18vw;
+  padding: 0 80px;
   height: 100vh;
   background: rgb(0,177,116);
   background: linear-gradient(135deg, rgba(0,177,116,1) 30%, rgb(0 100 193) 100%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  gap: 20px;
+}
+
+.leftContent p {
+  margin: 0;
+  padding: 0;
+}
+
+.leftContent .smallText {
+  font-size: min(5vw, 40px);
+}
+
+.leftContent .background {
+  padding: 0 10px;
+  background: #6B289E;
+  color: #E4DEDE;
+}
+
+.leftContent .largeText {
+  font-size: min(8vw, 60px);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.leftContent .underline {
+  border-bottom: 5px solid #6B289E;
+}
+
+.rightContent #coverImage {
+  width: min(45vw, 700px);
+}
+
+.blinker {
+  animation: blink 1s steps(1) infinite normal;
+}
+
+button {
+  background-color: #6B289E;
+  border: none;
+  color: #E4DEDE;
+  padding: 15px 26px;
+  text-align: center;
+  font-size: 16px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  
+  100% {
+    opactity: 1;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .coverContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
