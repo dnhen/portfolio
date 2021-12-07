@@ -15,29 +15,29 @@ const SectionAbout = () => {
         <div className="feature">
           <FaPencilRuler size="40" style={{color: "#6B289E"}} />
           <p className="title">Front-End</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
           <p className="title">Past Projects</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
         </div>
         <div className="feature">
           <FaDatabase size="40" style={{color: "#6B289E"}} />
           <p className="title">Back-End</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
           <p className="title">Past Projects</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
         </div>
         <div className="feature">
           <FaUsers size="40" style={{color: "#6B289E"}} />
           <p className="title">Leadership</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
           <p className="title">Past Projects</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
-          <p>Testing this item that goes here and is kinda funny ngl lmao</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here.</p>
         </div>
       </div>
     </div>
