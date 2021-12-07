@@ -1,7 +1,7 @@
 import '../Styles/Navbar.css';
 import { FaHome, FaUserTie, FaThList, FaEnvelopeOpen } from "react-icons/fa";
 
-const Navbar = ( { cartState, removeFromCart } ) => {
+const Navbar = () => {
   const handleBurgerClick = () => { // Func to show the menu when hamburger clicked
     const burger = document.querySelector(".burger");
     const navbar = document.querySelector(".navItems");
