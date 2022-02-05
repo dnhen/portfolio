@@ -15,7 +15,7 @@ const SectionAbout = () => {
         <div className="feature">
           <FaPencilRuler size="40" style={{color: "#6B289E"}} />
           <p className="title">Front-End</p>
-          <p>Testing this item that goes here.</p>
+          <p>Testing this item that goes here. Test One</p>
           <p className="title">Past Projects</p>
           <p>Testing this item that goes here.</p>
           <p>Testing this item that goes here.</p>
