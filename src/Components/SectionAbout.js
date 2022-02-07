@@ -8,7 +8,7 @@ const SectionAbout = () => {
       <div className="backgroundBox">
         <div className="innerBox">
           <h1>About me</h1>
-          <p>Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because.</p>
+          <p>Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because. Lorem ipsum goes here this is kinda funny because.</p>
         </div>
       </div>
       <div className="roundedBox">
